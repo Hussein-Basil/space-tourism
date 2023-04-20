@@ -2,9 +2,9 @@ import React from "react";
 
 import { Flex, Heading, Text, Button } from "@chakra-ui/react";
 
-import mobileBackground from "../assets/home/background-home-mobile.jpg";
+import mobileBackground from "../../assets/home/background-home-mobile.jpg";
 
-const Hero = () => {
+const Home = () => {
   return (
     <Flex
       direction="column"
@@ -43,4 +43,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

@@ -2,6 +2,11 @@ import React from "react";
 import { extendTheme, ChakraProvider } from "@chakra-ui/react";
 
 const theme = extendTheme({
+  breakpoints: {
+    mobile: '375px',
+    tablet: '768px',
+    desktop: '1440px'
+  },
   components: {
     Heading: {
       baseStyle: {
@@ -49,7 +54,7 @@ const theme = extendTheme({
                 fontSize: ['14px', '16px'],
                 letterSpacing: '2.35px',
                 textTransform: 'uppercase',
-                color: 'white'
+                color: '#D0D6F9'
             },
             nav: {
                 fontFamily: 'Barlow Condensed, serif',
