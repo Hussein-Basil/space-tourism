@@ -24,4 +24,6 @@ yarn-error.log*
 
 # tutorial materials
 /starter-code
+/design
+/.vscode
 README-template.md
